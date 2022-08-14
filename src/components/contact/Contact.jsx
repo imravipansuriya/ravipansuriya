@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import './contact.css'
-import {MdEmail} from 'react-icons/md'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsWhatsapp, BsInstagram}  from 'react-icons/bs'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -26,22 +27,22 @@ const Contact = () => {
             <div className="container contact-container">
                 <div className="contact-options">
                     <article className="contact-option">
-                        <MdEmail className='contact-option-icon'/>
+                        <HiOutlineMail className='contact-option-icon'/>
                         <h4>Email</h4>
-                        <h5> dummyegator@gmail.com </h5>
+                        <h5>ravipansuriya786@gmail</h5>
                         <a href="mailto:ravipansuriya786@gmail.com" target="_blank">Send a message</a>
                     </article>
                     <article className="contact-option">
-                        <MdEmail className='contact-option-icon'/>
-                        <h4>Messanger</h4>
-                        <h5> dummyegator@gmail.com </h5>
-                        <a href="mailto: dummyegator@gmail.com ">Send a message</a>
+                        <BsInstagram className='contact-option-icon'/>
+                        <h4>Instagram</h4>
+                        <h5>_ravi_pansuriya_</h5>
+                        <a href="https://www.instagram.com/_ravi_pansuriya_/">Send a message</a>
                     </article>
                     <article className="contact-option">
-                        <MdEmail className='contact-option-icon'/>
-                        <h4>Email</h4>
-                        <h5> dummyegator@gmail.com </h5>
-                        <a href="mailto: dummyegator@gmail.com ">Send a message</a>
+                        <BsWhatsapp className='contact-option-icon'/>
+                        <h4>Whatsapp</h4>
+                        <h5> +91-84609 21201</h5>
+                        <a href="https://api.whatsapp.com/send?phone=8460921201">Send a message</a>
                     </article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
